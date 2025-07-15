@@ -1,16 +1,14 @@
-<<<<<<< SEARCH
-<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen flex flex-col items-center justify-center p-4">
-=======
-<body style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);" class="min-h-screen flex flex-col items-center justify-center p-4">
->>>>>>> REPLACE
 
-<<<<<<< SEARCH
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen flex flex-col items-center justify-center p-4">
+
+<body style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);" class="min-h-screen flex flex-col items-center justify-center p-4">
+
                 } else {
                     resultMessage.textContent = `Player ${currentPlayer} wins!`;
                     resultMessage.classList.remove('hidden', 'text-gray-600');
                     resultMessage.classList.add(currentPlayer === 'X' ? 'text-blue-600' : 'text-indigo-600');
                     winSound.play();
-=======
+  
                 } else {
                     resultMessage.innerHTML = `
                         <div class="animate-fadeIn bg-white bg-opacity-90 p-6 rounded-lg shadow-xl">
@@ -26,101 +24,58 @@
                         : 'linear-gradient(135deg, #9f7aea 0%, #667eea 100%)';
                     
                     winSound.play();
->>>>>>> REPLACE
 
-<<<<<<< SEARCH
             function resetGame() {
                 board = ['', '', '', '', '', '', '', '', ''];
-=======
+
             function resetGame() {
                 board = ['', '', '', '', '', '', '', '', ''];
                 document.body.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
->>>>>>> REPLACE<<<<<<< SEARCH
+
                     <div id="player-x" class="player-info bg-blue-800 px-4 py-2 rounded-lg flex items-center transition-all duration-300">
-=======
+
                     <div id="player-x" class="player-info bg-gradient-to-r from-blue-600 to-blue-800 px-4 py-2 rounded-lg flex items-center transition-all duration-300">
->>>>>>> REPLACE
 
-```diff
-<<<<<<< SEARCH
                     <div id="player-o" class="player-info bg-blue-800 px-4 py-2 rounded-lg flex items-center transition-all duration-300 opacity-70">
-=======
+
                     <div id="player-o" class="player-info bg-gradient-to-r from-purple-600 to-purple-800 px-4 py-2 rounded-lg flex items-center transition-all duration-300 opacity-70">
->>>>>>> REPLACE
-2. Let's enhance the turn indicator with a gradient:
 
-
-```diff
-<<<<<<< SEARCH
                     <div id="turn-indicator" class="px-4 py-1 bg-blue-900 text-sm font-medium rounded-full animate-pulse">
-=======
+
                     <div id="turn-indicator" class="px-4 py-1 bg-gradient-to-r from-blue-500 to-purple-500 text-sm font-medium rounded-full animate-pulse">
->>>>>>> REPLACE
-3. For the reset button gradient:
 
-
-```diff
-<<<<<<< SEARCH
                     <button id="reset-btn" class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-=======
+
                     <button id="reset-btn" class="px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
->>>>>>> REPLACE
-4. For the winning message box gradient:
 
-
-```diff
-<<<<<<< SEARCH
                         <div class="animate-fadeIn bg-white bg-opacity-90 p-6 rounded-lg shadow-xl">
-=======
+
                         <div class="animate-fadeIn bg-gradient-to-br from-blue-50 to-purple-100 p-6 rounded-lg shadow-xl">
->>>>>>> REPLACE
-<<<<<<< SEARCH
+
         <div class="bg-white rounded-xl shadow-2xl overflow-hidden game-container">
-=======
+
         <div class="bg-gradient-to-br from-blue-900 to-indigo-900 rounded-xl shadow-2xl overflow-hidden game-container">
->>>>>>> REPLACE
 
-2. Game panel background:
-
-```diff
-<<<<<<< SEARCH
             <div class="p-6 md:p-8">
-=======
+
             <div class="p-6 md:p-8 bg-gray-900">
->>>>>>> REPLACE
 
-3. Cell background:
-
-```diff
-<<<<<<< SEARCH
                 cell.classList.add('cell', 'bg-white', 'rounded-lg', 'shadow-md', 'aspect-square', 'flex', 'items-center', 'justify-center', 'cursor-pointer', 'text-4xl', 'md:text-6xl', 'font-bold');
-=======
+
                 cell.classList.add('cell', 'bg-gray-800', 'rounded-lg', 'shadow-md', 'aspect-square', 'flex', 'items-center', 'justify-center', 'cursor-pointer', 'text-4xl', 'md:text-6xl', 'font-bold');
->>>>>>> REPLACE
 
-4. Result message background:
-
-```diff
-<<<<<<< SEARCH
                         <div class="animate-fadeIn bg-gradient-to-br from-blue-50 to-purple-100 p-6 rounded-lg shadow-xl">
-=======
+
                         <div class="animate-fadeIn bg-gradient-to-br from-purple-900 to-blue-900 p-6 rounded-lg shadow-xl">
->>>>>>> REPLACE5. Text color changes:
 
-```diff
-<<<<<<< SEARCH
             <p class="text-lg text-gray-600">The classic strategy game</p>
-=======
+
             <p class="text-lg text-gray-300">The classic strategy game</p>
->>>>>>> REPLACE
 
-
-```diff
-<<<<<<< SEARCH
         <div class="mt-8 text-center text-gray-500 text-sm">
-=======
+
         <div class="mt-8 text-center text-gray-400 text-sm">
->>>>>>> REPLACEThese changes will:
+These changes will:
 1. Replace all white backgrounds with dark gradient/blues
 2. Update text colors for better contrast
 3. Maintain the same structure and functionality
@@ -408,9 +363,9 @@
     </script>
 </body>
 </html>
-<<<<<<< SEARCH
+
     <audio id="draw-sound" src="https://assets.mixkit.co/active_storage/sfx/2417/2417-preview.mp3" preload="auto"></audio>
-=======
+
     <audio id="draw-sound" src="https://assets.mixkit.co/active_storage/sfx/2417/2417-preview.mp3" preload="auto"></audio>
     
     <!-- Win Modal -->
@@ -426,16 +381,14 @@
             </button>
         </div>
     </div>
->>>>>>> REPLACE2. Add modal animation styles:
 
-```diff
-<<<<<<< SEARCH
+
         @keyframes draw {
             to {
                 stroke-dashoffset: 0;
             }
         }
-=======
+
         @keyframes draw {
             to {
                 stroke-dashoffset: 0;
@@ -451,11 +404,8 @@
                 transform: scale(1);
             }
         }
->>>>>>> REPLACE
-3. Update JavaScript to show/hide modal:
 
-```diff
-<<<<<<< SEARCH
+
                 } else {
                     resultMessage.innerHTML = `
                         <div class="animate-fadeIn bg-gradient-to-br from-purple-900 to-blue-900 p-6 rounded-lg shadow-xl">
@@ -464,7 +414,7 @@
                         </div>
                     `;
                     resultMessage.classList.remove('hidden');
-=======
+
                 } else {
                     const modal = document.getElementById('win-modal');
                     const title = document.getElementById('win-title');
@@ -479,14 +429,11 @@
                     setTimeout(() => {
                         document.querySelector('.modal-content').classList.add('modal-show');
                     }, 50);
->>>>>>> REPLACE4. Add modal close functionality:
 
-```diff
-<<<<<<< SEARCH
             resetBtn.addEventListener('click', resetGame);
             
             // Initialize game
-=======
+
             resetBtn.addEventListener('click', resetGame);
             
             // Modal close button
@@ -497,4 +444,4 @@
             });
             
             // Initialize game
->>>>>>> REPLACE
+
